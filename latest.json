@@ -3,37 +3,43 @@
     "instruction_for_ai": "DO NOT calculate totals from individual activities. Use the pre-calculated values in 'summary' and 'weekly_summary' sections below. These are already computed accurately from the API data.",
     "data_period": "Last 7 days (including today)",
     "quick_stats": {
-      "total_training_hours": 11.89,
-      "total_activities": 2,
-      "total_tss": 578
+      "total_training_hours": 14.29,
+      "total_activities": 3,
+      "total_tss": 656
     }
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-01-29T20:54:35.924911",
+    "last_updated": "2026-01-29T21:54:28.977108",
     "data_range_days": 7,
     "version": "1.0.0"
   },
   "summary": {
     "period_description": "Last 7 days of training (including today)",
     "note": "Duration calculated from API moving_time field. Minor differences (<30s) from Intervals.icu dashboard are normal due to rounding.",
-    "total_duration_decimal_hours": 11.89,
-    "total_activities": 2,
+    "total_duration_decimal_hours": 14.29,
+    "total_activities": 3,
     "by_activity_type": {
       "MountainBikeRide": {
         "duration_decimal_hours": 11.89,
         "count": 2,
         "tss": 578,
         "distance_km": 83.8
+      },
+      "RockClimbing": {
+        "duration_decimal_hours": 2.39,
+        "count": 1,
+        "tss": 78,
+        "distance_km": 0.0
       }
     }
   },
   "current_status": {
     "fitness": {
-      "ctl": 58.421516,
-      "atl": 59.582077,
-      "tsb": -1.16,
-      "ramp_rate": 3.819481
+      "ctl": 60.256725,
+      "atl": 69.9656,
+      "tsb": -9.71,
+      "ramp_rate": 5.65469
     },
     "thresholds": {
       "ftp": 283,
@@ -50,6 +56,48 @@
   "recent_activities": [
     {
       "id": "activity_1",
+      "date": "2026-01-29T19:22:50",
+      "type": "RockClimbing",
+      "name": "Training Session",
+      "duration_hours": 2.39,
+      "distance_km": 0.0,
+      "tss": 78,
+      "intensity_factor": 57.108,
+      "avg_power": null,
+      "normalized_power": null,
+      "avg_hr": 106,
+      "max_hr": 156,
+      "avg_cadence": null,
+      "avg_speed": null,
+      "max_speed": null,
+      "avg_pace": null,
+      "avg_temp": null,
+      "weather": null,
+      "humidity": null,
+      "wind_speed": null,
+      "work_kj": null,
+      "calories": 1017,
+      "carbs_used": null,
+      "carbs_ingested": null,
+      "variability_index": null,
+      "decoupling": null,
+      "elevation_m": null,
+      "feel": null,
+      "rpe": null,
+      "zone_distribution": {
+        "hr_zones": {
+          "z1_time": 6889,
+          "z2_time": 1303,
+          "z3_time": 298,
+          "z4_time": 90,
+          "z5_time": 19,
+          "z6_time": 13,
+          "z7_time": 0
+        }
+      }
+    },
+    {
+      "id": "activity_2",
       "date": "2026-01-25T08:26:39",
       "type": "MountainBikeRide",
       "name": "Training Session",
@@ -91,7 +139,7 @@
       }
     },
     {
-      "id": "activity_2",
+      "id": "activity_3",
       "date": "2026-01-24T08:24:47",
       "type": "MountainBikeRide",
       "name": "Training Session",
@@ -427,9 +475,9 @@
     }
   ],
   "weekly_summary": {
-    "total_training_hours": 11.89,
-    "total_tss": 578,
-    "activities_count": 2,
+    "total_training_hours": 14.29,
+    "total_tss": 656,
+    "activities_count": 3,
     "avg_hrv": 36.9,
     "avg_resting_hr": 51.3
   }
