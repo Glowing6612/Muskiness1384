@@ -1,0 +1,484 @@
+{
+  "READ_THIS_FIRST": {
+    "instruction_for_ai": "DO NOT calculate totals from individual activities. Use the pre-calculated values in 'summary' and 'weekly_summary' sections below. These are already computed accurately from the API data.",
+    "data_period": "Last 7 days (including today)",
+    "quick_stats": {
+      "total_training_hours": 14.29,
+      "total_activities": 3,
+      "total_tss": 656
+    }
+  },
+  "metadata": {
+    "athlete_id": "REDACTED",
+    "last_updated": "2026-01-29T23:51:39.934611",
+    "data_range_days": 7,
+    "version": "1.0.0"
+  },
+  "summary": {
+    "period_description": "Last 7 days of training (including today)",
+    "note": "Duration calculated from API moving_time field. Minor differences (<30s) from Intervals.icu dashboard are normal due to rounding.",
+    "total_duration_decimal_hours": 14.29,
+    "total_activities": 3,
+    "by_activity_type": {
+      "MountainBikeRide": {
+        "duration_decimal_hours": 11.89,
+        "count": 2,
+        "tss": 578,
+        "distance_km": 83.8
+      },
+      "RockClimbing": {
+        "duration_decimal_hours": 2.39,
+        "count": 1,
+        "tss": 78,
+        "distance_km": 0.0
+      }
+    }
+  },
+  "current_status": {
+    "fitness": {
+      "ctl": 60.256725,
+      "atl": 69.9656,
+      "tsb": -9.71,
+      "ramp_rate": 5.65469
+    },
+    "thresholds": {
+      "ftp": 283,
+      "ftp_indoor": null,
+      "lthr": 155,
+      "max_hr": 173
+    },
+    "current_metrics": {
+      "weight_kg": 80.0,
+      "resting_hr": 47,
+      "hrv": 48.0
+    }
+  },
+  "recent_activities": [
+    {
+      "id": "activity_1",
+      "date": "2026-01-29T19:22:50",
+      "type": "RockClimbing",
+      "name": "Training Session",
+      "duration_hours": 2.39,
+      "distance_km": 0.0,
+      "tss": 78,
+      "intensity_factor": 57.108,
+      "avg_power": null,
+      "normalized_power": null,
+      "avg_hr": 106,
+      "max_hr": 156,
+      "avg_cadence": null,
+      "avg_speed": null,
+      "max_speed": null,
+      "avg_pace": null,
+      "avg_temp": null,
+      "weather": null,
+      "humidity": null,
+      "wind_speed": null,
+      "work_kj": null,
+      "calories": 1017,
+      "carbs_used": null,
+      "carbs_ingested": null,
+      "variability_index": null,
+      "decoupling": null,
+      "elevation_m": null,
+      "feel": null,
+      "rpe": null,
+      "zone_distribution": {
+        "hr_zones": {
+          "z1_time": 6889,
+          "z2_time": 1303,
+          "z3_time": 298,
+          "z4_time": 90,
+          "z5_time": 19,
+          "z6_time": 13,
+          "z7_time": 0
+        }
+      }
+    },
+    {
+      "id": "activity_2",
+      "date": "2026-01-25T08:26:39",
+      "type": "MountainBikeRide",
+      "name": "Training Session",
+      "duration_hours": 6.25,
+      "distance_km": 51.03,
+      "tss": 256,
+      "intensity_factor": 58.360012,
+      "avg_power": null,
+      "normalized_power": null,
+      "avg_hr": 118,
+      "max_hr": 163,
+      "avg_cadence": null,
+      "avg_speed": 6.8,
+      "max_speed": 45.0,
+      "avg_pace": null,
+      "avg_temp": 16.860786,
+      "weather": null,
+      "humidity": null,
+      "wind_speed": null,
+      "work_kj": null,
+      "calories": 3758,
+      "carbs_used": null,
+      "carbs_ingested": null,
+      "variability_index": null,
+      "decoupling": null,
+      "elevation_m": 2215.0,
+      "feel": 3,
+      "rpe": 7,
+      "zone_distribution": {
+        "hr_zones": {
+          "z1_time": 11921,
+          "z2_time": 7460,
+          "z3_time": 2288,
+          "z4_time": 666,
+          "z5_time": 95,
+          "z6_time": 77,
+          "z7_time": 8
+        }
+      }
+    },
+    {
+      "id": "activity_3",
+      "date": "2026-01-24T08:24:47",
+      "type": "MountainBikeRide",
+      "name": "Training Session",
+      "duration_hours": 5.65,
+      "distance_km": 32.74,
+      "tss": 322,
+      "intensity_factor": 66.94574,
+      "avg_power": null,
+      "normalized_power": null,
+      "avg_hr": 129,
+      "max_hr": 173,
+      "avg_cadence": null,
+      "avg_speed": 4.6,
+      "max_speed": 41.9,
+      "avg_pace": null,
+      "avg_temp": 17.025015,
+      "weather": null,
+      "humidity": null,
+      "wind_speed": null,
+      "work_kj": null,
+      "calories": 3918,
+      "carbs_used": null,
+      "carbs_ingested": null,
+      "variability_index": null,
+      "decoupling": null,
+      "elevation_m": 2126.0,
+      "feel": 3,
+      "rpe": 6,
+      "zone_distribution": {
+        "hr_zones": {
+          "z1_time": 7187,
+          "z2_time": 4011,
+          "z3_time": 3843,
+          "z4_time": 4565,
+          "z5_time": 436,
+          "z6_time": 230,
+          "z7_time": 66
+        }
+      }
+    }
+  ],
+  "wellness_data": [
+    {
+      "date": "2026-01-23",
+      "weight_kg": null,
+      "resting_hr": 55,
+      "hrv_rmssd": 30.0,
+      "hrv_sdnn": null,
+      "sleep_hours": 7.85,
+      "sleep_quality": 4,
+      "mental_energy": null,
+      "fatigue": null,
+      "soreness": null,
+      "avg_sleeping_hr": null
+    },
+    {
+      "date": "2026-01-24",
+      "weight_kg": null,
+      "resting_hr": 55,
+      "hrv_rmssd": 28.0,
+      "hrv_sdnn": null,
+      "sleep_hours": 7.38,
+      "sleep_quality": 4,
+      "mental_energy": null,
+      "fatigue": null,
+      "soreness": null,
+      "avg_sleeping_hr": null
+    },
+    {
+      "date": "2026-01-25",
+      "weight_kg": null,
+      "resting_hr": 55,
+      "hrv_rmssd": 26.0,
+      "hrv_sdnn": null,
+      "sleep_hours": 7.38,
+      "sleep_quality": 4,
+      "mental_energy": null,
+      "fatigue": null,
+      "soreness": null,
+      "avg_sleeping_hr": null
+    },
+    {
+      "date": "2026-01-26",
+      "weight_kg": null,
+      "resting_hr": 50,
+      "hrv_rmssd": 32.0,
+      "hrv_sdnn": null,
+      "sleep_hours": 9.13,
+      "sleep_quality": 4,
+      "mental_energy": null,
+      "fatigue": null,
+      "soreness": null,
+      "avg_sleeping_hr": null
+    },
+    {
+      "date": "2026-01-27",
+      "weight_kg": null,
+      "resting_hr": 50,
+      "hrv_rmssd": 45.0,
+      "hrv_sdnn": null,
+      "sleep_hours": 7.95,
+      "sleep_quality": 2,
+      "mental_energy": null,
+      "fatigue": null,
+      "soreness": null,
+      "avg_sleeping_hr": null
+    },
+    {
+      "date": "2026-01-28",
+      "weight_kg": null,
+      "resting_hr": 47,
+      "hrv_rmssd": 49.0,
+      "hrv_sdnn": null,
+      "sleep_hours": 8.68,
+      "sleep_quality": 3,
+      "mental_energy": null,
+      "fatigue": null,
+      "soreness": null,
+      "avg_sleeping_hr": null
+    },
+    {
+      "date": "2026-01-29",
+      "weight_kg": null,
+      "resting_hr": 47,
+      "hrv_rmssd": 48.0,
+      "hrv_sdnn": null,
+      "sleep_hours": 7.5,
+      "sleep_quality": 3,
+      "mental_energy": null,
+      "fatigue": null,
+      "soreness": null,
+      "avg_sleeping_hr": null
+    }
+  ],
+  "planned_workouts": [
+    {
+      "id": "event_1",
+      "date": "2026-01-29T00:00:00",
+      "name": "Planned Workout",
+      "type": "WORKOUT",
+      "description": "Cross-training session. Focus on climbing-specific strength and technique. Not a cycling workout.",
+      "planned_tss": null,
+      "duration_hours": 0.0
+    },
+    {
+      "id": "event_2",
+      "date": "2026-01-30T00:00:00",
+      "name": "Planned Workout",
+      "type": "WORKOUT",
+      "description": "-5m ramp 50-65% FTP\n-85m 55-74% FTP\n-5m 50% FTP",
+      "planned_tss": 64,
+      "duration_hours": 0.0
+    },
+    {
+      "id": "event_3",
+      "date": "2026-01-31T00:00:00",
+      "name": "Planned Workout",
+      "type": "WORKOUT",
+      "description": "-5m ramp 50-65% FTP\n\n-86m 65% FTP\n-4h 40m 55-74% FTP (Practice long climbs and descents, maintain Z2 power)\n\n-86m 65% FTP\n-10m 50% FTP",
+      "planned_tss": 325,
+      "duration_hours": 0.0
+    },
+    {
+      "id": "event_4",
+      "date": "2026-02-02T00:00:00",
+      "name": "Planned Workout",
+      "type": "WORKOUT",
+      "description": "-5m ramp 50-65% FTP\n-90m 55-74% FTP\n-5m 50% FTP",
+      "planned_tss": 67,
+      "duration_hours": 0.0
+    },
+    {
+      "id": "event_5",
+      "date": "2026-02-02T00:00:00",
+      "name": "Planned Workout",
+      "type": "WORKOUT",
+      "description": "Optional weekly body-weight strength session",
+      "planned_tss": null,
+      "duration_hours": 0.0
+    },
+    {
+      "id": "event_6",
+      "date": "2026-02-03T00:00:00",
+      "name": "Planned Workout",
+      "type": "WORKOUT",
+      "description": "-5m ramp 50-65% FTP\n\n\n-10m 65% FTP\n\n3x\n-30s 100% FTP\n-30s 55% FTP\n\n-13m 65% FTP\n\n-5m 60% FTP\n\n5x\n-1m 120-140% FTP\n-3m 50% FTP\n\n-10m 65% FTP\n\n-10m 50% FTP",
+      "planned_tss": 67,
+      "duration_hours": 0.0
+    },
+    {
+      "id": "event_7",
+      "date": "2026-02-04T00:00:00",
+      "name": "Planned Workout",
+      "type": "WORKOUT",
+      "description": "-5m ramp 50-65% FTP\n-90m 55-74% FTP\n-5m 50% FTP",
+      "planned_tss": 67,
+      "duration_hours": 0.0
+    },
+    {
+      "id": "event_8",
+      "date": "2026-02-05T00:00:00",
+      "name": "Planned Workout",
+      "type": "WORKOUT",
+      "description": "Cross-training session. Focus on climbing-specific strength and technique. Not a cycling workout.",
+      "planned_tss": null,
+      "duration_hours": 0.0
+    },
+    {
+      "id": "event_9",
+      "date": "2026-02-06T00:00:00",
+      "name": "Planned Workout",
+      "type": "WORKOUT",
+      "description": "-45m 50-60% FTP",
+      "planned_tss": 22,
+      "duration_hours": 0.0
+    },
+    {
+      "id": "event_10",
+      "date": "2026-02-07T00:00:00",
+      "name": "Planned Workout",
+      "type": "WORKOUT",
+      "description": "-5m ramp 50-65% FTP\n\n-92m 65% FTP\n-5h 5m 55-74% FTP (Extended climbing practice, simulating event demands)\n\n-92m 65% FTP\n-10m 50% FTP",
+      "planned_tss": 347,
+      "duration_hours": 0.0
+    },
+    {
+      "id": "event_11",
+      "date": "2026-02-09T00:00:00",
+      "name": "Planned Workout",
+      "type": "WORKOUT",
+      "description": "-5m ramp 50-65% FTP\n-60m 55-74% FTP\n-5m 50% FTP",
+      "planned_tss": 47,
+      "duration_hours": 0.0
+    },
+    {
+      "id": "event_12",
+      "date": "2026-02-09T00:00:00",
+      "name": "Planned Workout",
+      "type": "WORKOUT",
+      "description": "Optional weekly body-weight strength session",
+      "planned_tss": null,
+      "duration_hours": 0.0
+    },
+    {
+      "id": "event_13",
+      "date": "2026-02-10T00:00:00",
+      "name": "Planned Workout",
+      "type": "WORKOUT",
+      "description": "-5m ramp 50-65% FTP\n\n3x\n-30s 100% FTP\n-30s 55% FTP\n\n-5m 60% FTP\n\n3x\n-3m 105-115% FTP\n-3m 50% FTP\n\n-19m 65% FTP\n\n-10m 50% FTP",
+      "planned_tss": 57,
+      "duration_hours": 0.0
+    },
+    {
+      "id": "event_14",
+      "date": "2026-02-11T00:00:00",
+      "name": "Planned Workout",
+      "type": "WORKOUT",
+      "description": "-5m ramp 50-65% FTP\n-60m 55-74% FTP\n-5m 50% FTP",
+      "planned_tss": 47,
+      "duration_hours": 0.0
+    },
+    {
+      "id": "event_15",
+      "date": "2026-02-12T00:00:00",
+      "name": "Planned Workout",
+      "type": "WORKOUT",
+      "description": "Cross-training session. Focus on climbing-specific strength and technique. Not a cycling workout.",
+      "planned_tss": null,
+      "duration_hours": 0.0
+    },
+    {
+      "id": "event_16",
+      "date": "2026-02-13T00:00:00",
+      "name": "Planned Workout",
+      "type": "WORKOUT",
+      "description": "-30m 50-60% FTP",
+      "planned_tss": 15,
+      "duration_hours": 0.0
+    },
+    {
+      "id": "event_17",
+      "date": "2026-02-14T00:00:00",
+      "name": "Planned Workout",
+      "type": "WORKOUT",
+      "description": "-5m ramp 50-65% FTP\n\n-63m 65% FTP\n-3h 30m 55-74% FTP (Focus on active recovery and maintaining flow on descents)\n\n-63m 65% FTP\n-10m 50% FTP",
+      "planned_tss": 239,
+      "duration_hours": 0.0
+    },
+    {
+      "id": "event_18",
+      "date": "2026-02-16T00:00:00",
+      "name": "Planned Workout",
+      "type": "WORKOUT",
+      "description": "-5m 50% FTP\n-1m 65% FTP\n-1m 70% FTP\n-1m 75% FTP\n-1m 80% FTP\n-1m 85% FTP\n-1m 90% FTP\n-1m 95% FTP\n-1m 100% FTP\n-1m 105% FTP\n-1m 110% FTP\n-1m 115% FTP\n-1m 120% FTP\n-1m 125% FTP\n-1m 130% FTP\n-1m 135% FTP\n-1m 140% FTP\n-1m 145% FTP\n-1m 150% FTP\n-1m 155% FTP\n-1m 160% FTP\n-1m 165% FTP\n-1m 170% FTP\n-1m 175% FTP\n-1m 180% FTP\n-1m 185% FTP\n-5m 50% FTP",
+      "planned_tss": 94,
+      "duration_hours": 0.0
+    },
+    {
+      "id": "event_19",
+      "date": "2026-02-16T00:00:00",
+      "name": "Planned Workout",
+      "type": "WORKOUT",
+      "description": "Optional weekly body-weight strength session",
+      "planned_tss": null,
+      "duration_hours": 0.0
+    },
+    {
+      "id": "event_20",
+      "date": "2026-02-17T00:00:00",
+      "name": "Planned Workout",
+      "type": "WORKOUT",
+      "description": "-5m ramp 50-65% FTP\n\n\n-11m 65% FTP\n\n3x\n-30s 100% FTP\n-30s 55% FTP\n\n-5m 60% FTP\n\n3x\n-10m 95-105% FTP\n-5m 50% FTP\n\n-11m 65% FTP\n\n-10m 50% FTP",
+      "planned_tss": 97,
+      "duration_hours": 0.0
+    },
+    {
+      "id": "event_21",
+      "date": "2026-02-18T00:00:00",
+      "name": "Planned Workout",
+      "type": "WORKOUT",
+      "description": "-5m ramp 50-65% FTP\n-95m 55-74% FTP\n-5m 50% FTP",
+      "planned_tss": 71,
+      "duration_hours": 0.0
+    },
+    {
+      "id": "event_22",
+      "date": "2026-02-19T00:00:00",
+      "name": "Planned Workout",
+      "type": "WORKOUT",
+      "description": "Cross-training session. Focus on climbing-specific strength and technique. Not a cycling workout.",
+      "planned_tss": null,
+      "duration_hours": 0.0
+    }
+  ],
+  "weekly_summary": {
+    "total_training_hours": 14.29,
+    "total_tss": 656,
+    "activities_count": 3,
+    "avg_hrv": 36.9,
+    "avg_resting_hr": 51.3
+  }
+}
