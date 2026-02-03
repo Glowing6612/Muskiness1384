@@ -10,7 +10,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-02-02T23:56:00.820543",
+    "last_updated": "2026-02-03T05:06:38.448393",
     "data_range_days": 7,
     "version": "1.0.0"
   },
@@ -36,10 +36,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 57.34629,
-      "atl": 54.1322,
-      "tsb": 3.21,
-      "ramp_rate": -5.400837
+      "ctl": 56.03412,
+      "atl": 48.113346,
+      "tsb": 7.92,
+      "ramp_rate": -5.2366753
     },
     "thresholds": {
       "ftp": 283,
@@ -49,8 +49,8 @@
     },
     "current_metrics": {
       "weight_kg": 80.0,
-      "resting_hr": 54,
-      "hrv": 43.0
+      "resting_hr": 52,
+      "hrv": null
     }
   },
   "recent_activities": [
@@ -183,19 +183,6 @@
   ],
   "wellness_data": [
     {
-      "date": "2026-01-27",
-      "weight_kg": null,
-      "resting_hr": 50,
-      "hrv_rmssd": 45.0,
-      "hrv_sdnn": null,
-      "sleep_hours": 7.95,
-      "sleep_quality": 2,
-      "mental_energy": null,
-      "fatigue": null,
-      "soreness": null,
-      "avg_sleeping_hr": null
-    },
-    {
       "date": "2026-01-28",
       "weight_kg": null,
       "resting_hr": 47,
@@ -263,11 +250,24 @@
     {
       "date": "2026-02-02",
       "weight_kg": null,
-      "resting_hr": 54,
+      "resting_hr": 52,
       "hrv_rmssd": 43.0,
       "hrv_sdnn": null,
       "sleep_hours": 7.7,
       "sleep_quality": 2,
+      "mental_energy": null,
+      "fatigue": null,
+      "soreness": null,
+      "avg_sleeping_hr": null
+    },
+    {
+      "date": "2026-02-03",
+      "weight_kg": null,
+      "resting_hr": 52,
+      "hrv_rmssd": null,
+      "hrv_sdnn": null,
+      "sleep_hours": null,
+      "sleep_quality": null,
       "mental_energy": null,
       "fatigue": null,
       "soreness": null,
@@ -277,24 +277,6 @@
   "planned_workouts": [
     {
       "id": "event_1",
-      "date": "2026-02-02T00:00:00",
-      "name": "Planned Workout",
-      "type": "WORKOUT",
-      "description": "-5m ramp 50-65% FTP\n-90m 55-74% FTP\n-5m 50% FTP",
-      "planned_tss": 67,
-      "duration_hours": 0.0
-    },
-    {
-      "id": "event_2",
-      "date": "2026-02-02T00:00:00",
-      "name": "Planned Workout",
-      "type": "WORKOUT",
-      "description": "Optional weekly body-weight strength session",
-      "planned_tss": null,
-      "duration_hours": 0.0
-    },
-    {
-      "id": "event_3",
       "date": "2026-02-03T00:00:00",
       "name": "Planned Workout",
       "type": "WORKOUT",
@@ -303,7 +285,7 @@
       "duration_hours": 0.0
     },
     {
-      "id": "event_4",
+      "id": "event_2",
       "date": "2026-02-04T00:00:00",
       "name": "Planned Workout",
       "type": "WORKOUT",
@@ -312,7 +294,7 @@
       "duration_hours": 0.0
     },
     {
-      "id": "event_5",
+      "id": "event_3",
       "date": "2026-02-05T00:00:00",
       "name": "Planned Workout",
       "type": "WORKOUT",
@@ -321,7 +303,7 @@
       "duration_hours": 0.0
     },
     {
-      "id": "event_6",
+      "id": "event_4",
       "date": "2026-02-06T00:00:00",
       "name": "Planned Workout",
       "type": "WORKOUT",
@@ -330,7 +312,7 @@
       "duration_hours": 0.0
     },
     {
-      "id": "event_7",
+      "id": "event_5",
       "date": "2026-02-07T00:00:00",
       "name": "Planned Workout",
       "type": "WORKOUT",
@@ -339,7 +321,7 @@
       "duration_hours": 0.0
     },
     {
-      "id": "event_8",
+      "id": "event_6",
       "date": "2026-02-09T00:00:00",
       "name": "Planned Workout",
       "type": "WORKOUT",
@@ -348,7 +330,7 @@
       "duration_hours": 0.0
     },
     {
-      "id": "event_9",
+      "id": "event_7",
       "date": "2026-02-09T00:00:00",
       "name": "Planned Workout",
       "type": "WORKOUT",
@@ -357,7 +339,7 @@
       "duration_hours": 0.0
     },
     {
-      "id": "event_10",
+      "id": "event_8",
       "date": "2026-02-10T00:00:00",
       "name": "Planned Workout",
       "type": "WORKOUT",
@@ -366,7 +348,7 @@
       "duration_hours": 0.0
     },
     {
-      "id": "event_11",
+      "id": "event_9",
       "date": "2026-02-11T00:00:00",
       "name": "Planned Workout",
       "type": "WORKOUT",
@@ -375,7 +357,7 @@
       "duration_hours": 0.0
     },
     {
-      "id": "event_12",
+      "id": "event_10",
       "date": "2026-02-12T00:00:00",
       "name": "Planned Workout",
       "type": "WORKOUT",
@@ -384,7 +366,7 @@
       "duration_hours": 0.0
     },
     {
-      "id": "event_13",
+      "id": "event_11",
       "date": "2026-02-13T00:00:00",
       "name": "Planned Workout",
       "type": "WORKOUT",
@@ -393,7 +375,7 @@
       "duration_hours": 0.0
     },
     {
-      "id": "event_14",
+      "id": "event_12",
       "date": "2026-02-14T00:00:00",
       "name": "Planned Workout",
       "type": "WORKOUT",
@@ -402,7 +384,7 @@
       "duration_hours": 0.0
     },
     {
-      "id": "event_15",
+      "id": "event_13",
       "date": "2026-02-16T00:00:00",
       "name": "Planned Workout",
       "type": "WORKOUT",
@@ -411,7 +393,7 @@
       "duration_hours": 0.0
     },
     {
-      "id": "event_16",
+      "id": "event_14",
       "date": "2026-02-16T00:00:00",
       "name": "Planned Workout",
       "type": "WORKOUT",
@@ -420,7 +402,7 @@
       "duration_hours": 0.0
     },
     {
-      "id": "event_17",
+      "id": "event_15",
       "date": "2026-02-17T00:00:00",
       "name": "Planned Workout",
       "type": "WORKOUT",
@@ -429,7 +411,7 @@
       "duration_hours": 0.0
     },
     {
-      "id": "event_18",
+      "id": "event_16",
       "date": "2026-02-18T00:00:00",
       "name": "Planned Workout",
       "type": "WORKOUT",
@@ -438,7 +420,7 @@
       "duration_hours": 0.0
     },
     {
-      "id": "event_19",
+      "id": "event_17",
       "date": "2026-02-19T00:00:00",
       "name": "Planned Workout",
       "type": "WORKOUT",
@@ -447,7 +429,7 @@
       "duration_hours": 0.0
     },
     {
-      "id": "event_20",
+      "id": "event_18",
       "date": "2026-02-20T00:00:00",
       "name": "Planned Workout",
       "type": "WORKOUT",
@@ -456,7 +438,7 @@
       "duration_hours": 0.0
     },
     {
-      "id": "event_21",
+      "id": "event_19",
       "date": "2026-02-21T00:00:00",
       "name": "Planned Workout",
       "type": "WORKOUT",
@@ -465,7 +447,7 @@
       "duration_hours": 0.0
     },
     {
-      "id": "event_22",
+      "id": "event_20",
       "date": "2026-02-23T00:00:00",
       "name": "Planned Workout",
       "type": "WORKOUT",
@@ -474,12 +456,21 @@
       "duration_hours": 0.0
     },
     {
-      "id": "event_23",
+      "id": "event_21",
       "date": "2026-02-23T00:00:00",
       "name": "Planned Workout",
       "type": "WORKOUT",
       "description": "Optional weekly body-weight strength session",
       "planned_tss": null,
+      "duration_hours": 0.0
+    },
+    {
+      "id": "event_22",
+      "date": "2026-02-24T00:00:00",
+      "name": "Planned Workout",
+      "type": "WORKOUT",
+      "description": "-5m ramp 50-65% FTP\n\n\n-13m 65% FTP\n\n3x\n-30s 100% FTP\n-30s 55% FTP\n\n-5m 60% FTP\n\n5x\n-5m 105-115% FTP\n-5m 50% FTP\n\n-12m 65% FTP\n\n-10m 50% FTP",
+      "planned_tss": 110,
       "duration_hours": 0.0
     }
   ],
@@ -487,7 +478,7 @@
     "total_training_hours": 4.72,
     "total_tss": 135,
     "activities_count": 3,
-    "avg_hrv": 42.0,
+    "avg_hrv": 41.5,
     "avg_resting_hr": 50.9
   }
 }
